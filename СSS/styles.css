@@ -42,6 +42,12 @@ ul {
 .auth-nav .link:focus {
   color: #2196f3;
 }
+
+/* hero */
+.hero-tile {
+  color: #ffffff;
+}
+
 /* section */
 .section-title {
   color: #212121;
