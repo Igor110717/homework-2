@@ -16,6 +16,7 @@ rgba(255, 255, 255, 0.6) - телефон и почта в футтер;
   --logo-color: #000000;
   --contact-info-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -72,6 +73,10 @@ ul {
 
 .team-list .title {
   color: var(--title-text-color);
+}
+
+.employee-list {
+  background-color: var(--secondary-bg-color);
 }
 
 /* footer */
