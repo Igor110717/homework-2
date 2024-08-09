@@ -54,8 +54,11 @@ ul {
 }
 
 /* hero */
-.hero-tile {
-  color: #ffffff;
+.hero .hero-title {
+  color: var(--primary-bg-color);
+}
+.hero {
+  background-color: var(--footer-bg-color);
 }
 
 /* section */
