@@ -5,12 +5,17 @@
 #2196f3 - акцент (синий).
 rgba(255, 255, 255, 0.6) - телефон и почта в футтер;
 #f5f4fa - вторичный цвет фона
+
 */
 
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --acctent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --logo-color: #000000;
+  --contact-info-color: rgba(255, 255, 255, 0.6);
+  --footer-bg-color: #2f303a;
 }
 body {
   background-color: #ffffff;
@@ -64,4 +69,23 @@ ul {
 
 .team-list .title {
   color: var(--title-text-color);
+}
+
+/* footer */
+
+.contact-info {
+  color: var(--primary-bg-color);
+}
+
+.contact-info .link {
+  color: var(--primary-bg-color);
+}
+
+.contact-info .link:hover,
+.contact-info .link:focus {
+  color: var(--acctent-color);
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
 }
