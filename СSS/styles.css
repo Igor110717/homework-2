@@ -12,14 +12,14 @@ rgba(255, 255, 255, 0.6) - телефон и почта в футтер;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --acctent-color: #2196f3;
-  --primary-bg-color: #ffffff;
+  --primary-white-color: #ffffff;
   --logo-color: #000000;
   --contact-info-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
   --secondary-bg-color: #f5f4fa;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 
@@ -56,10 +56,10 @@ ul {
 
 /* hero */
 .hero .hero-title {
-  color: var(--primary-bg-color);
+  color: var(--primary-white-color);
 }
 .hero {
-  background-color: var(--footer-bg-color);
+  background-color: var(--primary-white-color);
 }
 
 /* section */
@@ -79,14 +79,18 @@ ul {
   background-color: var(--secondary-bg-color);
 }
 
+.work-list .title {
+  color: var(--title-text-color);
+}
+
 /* footer */
 
 .contact-info {
-  color: var(--primary-bg-color);
+  color: var(--primary-white-color);
 }
 
 .contact-info .link {
-  color: var(--primary-bg-color);
+  color: var(--primary-white-color);
 }
 
 .contact-info .link:hover,
@@ -102,12 +106,34 @@ ul {
 }
 
 .footer .logo-white {
-  color: var(--primary-bg-color);
+  color: var(--primary-white-color);
 }
 
 /* button */
 
 .button {
-  color: var(--primary-bg-color);
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.button.primery {
+  color: var(--primary-white-color);
+  background-color: var(--acctent-color);
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.button.primery:hover,
+.button.primery:focus {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
   background-color: var(--acctent-color);
 }
