@@ -27,6 +27,7 @@ ul {
   list-style: none;
 }
 
+/* logo */
 .logo-blue {
   color: var(--acctent-color);
 }
@@ -42,6 +43,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--acctent-color);
+}
+
+.site-nav .link.current {
   color: var(--acctent-color);
 }
 /*auth-nav*/
